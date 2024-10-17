@@ -1,0 +1,62 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:vm="using:NewEShop.ViewModels"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="NewEShop.Views.MainWindow"
+        x:DataType="vm:MainWindowViewModel"
+        Icon="/Assets/avalonia-logo.ico"
+        Title="NewEShop"
+        
+        TransparencyLevelHint="AcrylicBlur"
+        Background="Transparent"
+        
+        ExtendClientAreaToDecorationsHint="False">
+
+    <Design.DataContext>
+        <!-- This only sets the DataContext for the previewer in an IDE,
+             to set the actual DataContext for runtime, set the DataContext property in code (look at App.axaml.cs) -->
+        <vm:MainWindowViewModel/>
+    </Design.DataContext>
+
+    <!--Grid RowDefinitions="30,*">
+
+        < Title bar >
+        <Grid ColumnDefinitions="Auto,*" IsHitTestVisible="False">
+            <ExperimentalAcrylicBorder Grid.Column="1" IsHitTestVisible="False">
+                <ExperimentalAcrylicBorder.Material>
+                    <ExperimentalAcrylicMaterial
+                        BackgroundSource="Digger"
+                        TintColor="#F0833A"
+                        TintOpacity="1"
+                        MaterialOpacity="0.75" />
+                </ExperimentalAcrylicBorder.Material>
+            </ExperimentalAcrylicBorder>
+
+            <Image Grid.Column="0" VerticalAlignment="Center" Source="avares://NewEShop/Assets/avalonia-logo.ico" Width="18" Margin="12,0,12,0"></Image>
+            <TextBlock Grid.Column="1" VerticalAlignment="Center" FontSize="12">NewEShop</TextBlock>
+        </Grid-->
+
+        <Panel>
+            <ExperimentalAcrylicBorder IsHitTestVisible="False">
+                <ExperimentalAcrylicBorder.Material>
+                    <ExperimentalAcrylicMaterial
+                        BackgroundSource="Digger"
+                        TintColor="White"
+                        TintOpacity="1"
+                        MaterialOpacity="0.70" />
+                </ExperimentalAcrylicBorder.Material>
+            </ExperimentalAcrylicBorder>
+
+            <Panel Margin="40">
+                <Button Content="Shopping Cart"
+                    HorizontalAlignment="Right" VerticalAlignment="Top"/>
+            </Panel>
+           
+        </Panel>
+
+        
+    
+
+</Window>
