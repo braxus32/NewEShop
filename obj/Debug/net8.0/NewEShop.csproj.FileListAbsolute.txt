@@ -66,3 +66,4 @@ c:\Users\gener\Documents\Coding 2024\NewEShop\obj\Debug\net8.0\refint\Avalonia\N
 c:\Users\gener\Documents\Coding 2024\NewEShop\obj\Debug\net8.0\NewEShop.csproj.Up2Date
 c:\Users\gener\Documents\Coding 2024\NewEShop\obj\Debug\net8.0\NewEShop.genruntimeconfig.cache
 c:\Users\gener\Documents\Coding 2024\NewEShop\obj\Debug\net8.0\ref\NewEShop.dll
+c:\Users\gener\Documents\Coding 2024\NewEShop\obj\Debug\net8.0\NewEShop.sourcelink.json
