@@ -60,10 +60,10 @@ c:\Users\gener\Documents\Coding 2024\NewEShop\obj\Debug\net8.0\NewEShop.Generate
 c:\Users\gener\Documents\Coding 2024\NewEShop\obj\Debug\net8.0\NewEShop.AssemblyInfoInputs.cache
 c:\Users\gener\Documents\Coding 2024\NewEShop\obj\Debug\net8.0\NewEShop.AssemblyInfo.cs
 c:\Users\gener\Documents\Coding 2024\NewEShop\obj\Debug\net8.0\NewEShop.csproj.CoreCompileInputs.cache
+c:\Users\gener\Documents\Coding 2024\NewEShop\obj\Debug\net8.0\NewEShop.sourcelink.json
 c:\Users\gener\Documents\Coding 2024\NewEShop\obj\Debug\net8.0\Avalonia\NewEShop.dll
 c:\Users\gener\Documents\Coding 2024\NewEShop\obj\Debug\net8.0\Avalonia\NewEShop.pdb
 c:\Users\gener\Documents\Coding 2024\NewEShop\obj\Debug\net8.0\refint\Avalonia\NewEShop.dll
 c:\Users\gener\Documents\Coding 2024\NewEShop\obj\Debug\net8.0\NewEShop.csproj.Up2Date
 c:\Users\gener\Documents\Coding 2024\NewEShop\obj\Debug\net8.0\NewEShop.genruntimeconfig.cache
 c:\Users\gener\Documents\Coding 2024\NewEShop\obj\Debug\net8.0\ref\NewEShop.dll
-c:\Users\gener\Documents\Coding 2024\NewEShop\obj\Debug\net8.0\NewEShop.sourcelink.json

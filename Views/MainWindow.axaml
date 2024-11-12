@@ -50,8 +50,9 @@
             </ExperimentalAcrylicBorder>
 
             <Panel Margin="40">
-                <Button Content="Shopping Cart"
-                    HorizontalAlignment="Right" VerticalAlignment="Top"/>
+                <Button HorizontalAlignment="Right" VerticalAlignment="Top">
+                    <PathIcon Data="{StaticResource store_bag}" />
+                </Button>
             </Panel>
            
         </Panel>
