@@ -50,7 +50,8 @@
             </ExperimentalAcrylicBorder>
 
             <Panel Margin="40">
-                <Button HorizontalAlignment="Right" VerticalAlignment="Top">
+                <Button HorizontalAlignment="Right" VerticalAlignment="Top"
+                        Command="{Binding ViewCartCommand}">
                     <PathIcon Data="{StaticResource store_bag}" />
                 </Button>
             </Panel>

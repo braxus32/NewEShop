@@ -1,8 +1,31 @@
-﻿namespace NewEShop.ViewModels;
+﻿
+using System;
+using System.Collections.Generic;
+using System.Reactive.Linq;
+using System.Text;
+using System.Windows.Input;
+using ReactiveUI;
+using NewEShop.ViewModels;
 
-public partial class MainWindowViewModel : ViewModelBase
+namespace NewEShop.ViewModels
 {
-#pragma warning disable CA1822 // Mark members as static
-    public string Greeting => "Welcome to Avalonia!";
-#pragma warning restore CA1822 // Mark members as static
+    public class MainWindowViewModel : ViewModelBase
+    {
+        public MainWindowViewModel()
+        {
+            ShowDialog = new Interaction<ShoppingCartViewModel, ListingViewModel?>();
+
+            ViewCartCommand = ReactiveCommand.Create(async () =>
+            {
+                var cart = new ShoppingCartViewModel();
+
+                var result = await ShowDialog.Handle(cart);
+            });
+        }
+        
+        public ICommand ViewCartCommand { get; }
+
+        public Interaction<ShoppingCartViewModel, ListingViewModel?> ShowDialog { get; }
+
+    }
 }

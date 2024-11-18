@@ -27,3 +27,6 @@ build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
 [c:/Users/gener/Documents/Coding 2024/NewEShop/Views/MainWindow.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[c:/Users/gener/Documents/Coding 2024/NewEShop/Views/ShoppingCartWindow.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
